@@ -3,6 +3,7 @@ package com.cxb.bg.controller;
 import com.cxb.bg.model.CommonResult;
 import com.cxb.bg.model.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,9 +13,10 @@ import org.springframework.web.client.RestTemplate;
  * @description
  */
 @RestController
+@EnableEurekaClient
 public class OrderController {
 
-    private static String PAYMENT_URL="http://127.0.0.1:8001/";
+    private static String PAYMENT_URL="http://CLOUD-PROVIDER-SERVICE/";
 
     @Autowired
     private RestTemplate restTemplate;

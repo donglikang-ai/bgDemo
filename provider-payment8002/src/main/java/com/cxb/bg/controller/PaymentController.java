@@ -32,7 +32,7 @@ public class PaymentController {
         if (!Objects.isNull(payment)) {
             return new CommonResult(200, "查询成功"+serverPort, payment);
         } else {
-            return new CommonResult(444, "不存在对应记录");
+            return new CommonResult(444, "不存在对应记录"+serverPort);
         }
     }
 
