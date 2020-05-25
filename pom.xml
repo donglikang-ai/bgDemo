@@ -17,6 +17,7 @@
         <module>consumer-orderFeigh80</module>
         <module>hytrix-dashboard</module>
         <module>gateway4001</module>
+        <module>config-server5001</module>
     </modules>
     <packaging>pom</packaging>
 
