@@ -18,6 +18,7 @@
         <module>hytrix-dashboard</module>
         <module>gateway4001</module>
         <module>config-server5001</module>
+        <module>provider-payment9001</module>
     </modules>
     <packaging>pom</packaging>
 
