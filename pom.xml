@@ -19,6 +19,7 @@
         <module>gateway4001</module>
         <module>config-server5001</module>
         <module>provider-payment9001</module>
+        <module>consumer-order90</module>
     </modules>
     <packaging>pom</packaging>
 
