@@ -20,6 +20,7 @@
         <module>config-server5001</module>
         <module>provider-payment9001</module>
         <module>consumer-order90</module>
+        <module>nacos-config-client</module>
     </modules>
     <packaging>pom</packaging>
 
