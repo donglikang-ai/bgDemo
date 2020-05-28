@@ -21,6 +21,7 @@
         <module>provider-payment9001</module>
         <module>consumer-order90</module>
         <module>nacos-config-client</module>
+        <module>sentinel-payment8401</module>
     </modules>
     <packaging>pom</packaging>
 
